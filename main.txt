@@ -1,0 +1,22 @@
+// Number Guessing Game - Raw Concepts
+
+Here are the raw concepts for the number guessing game, simplified to its most basic logical steps:
+
+1.  Start Game.
+2.  Repeat Games:
+    * New Round Setup:
+        * Computer chooses a secret number (1-100).
+        * Player gets 7 chances.
+    * Guessing Attempts (Loop):
+        * Count current attempt.
+        * Player inputs a guess (must be a valid number 1-100).
+        * Check Guess:
+            * If correct, Player Wins.
+            * If too low, tell player to guess higher.
+            * If too high, tell player to guess lower.
+        * Continue until guess is correct or chances run out.
+    * End of Round:
+        * Announce if player won or lost.
+        * Reveal the secret number.
+    * Ask to Play Again? If player says no, stop repeating games.
+3.  End Game.
